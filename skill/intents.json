@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PickANumberIntent",
+          "slots": [],
+          "samples": [
+            "pick a number",
+            "choose a number",
+            "say a random number",
+            "a random number",
+            "a number"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "PickANumberBetweenIntent",
+          "slots": [
+            {
+              "name": "min",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "max",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "between {min} and {max}",
+            "a random number between {min} and {max}",
+            "a number between {min} and {max}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
